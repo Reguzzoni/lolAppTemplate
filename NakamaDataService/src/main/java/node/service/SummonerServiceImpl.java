@@ -21,8 +21,8 @@ public class SummonerServiceImpl implements SummonerService{
 		return listRuoloEntity.stream()
 				.map(entity -> {
 					SummonerDto dto = new SummonerDto();
-					dto.setDescrizioneRuolo(entity.getDescrizioneRuolo());
-					dto.setRuolo(entity.getRuolo());
+					//dto.setDescrizioneRuolo(entity.getDescrizioneRuolo());
+					//dto.setRuolo(entity.getRuolo());
 					return dto;
 				})
 				.collect(Collectors.toList());
